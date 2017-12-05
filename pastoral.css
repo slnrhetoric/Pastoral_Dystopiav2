@@ -1,0 +1,57 @@
+@charset "UTF-8";
+html, body { height: 100%; width: 100%; margin: 0; background-color: lightgrey}
+
+h1 {
+	font-family: "ITC Avant Garde Gothic", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: black;
+   -webkit-text-fill-color: #5e5e5e;
+   -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #FF00FD;
+	font-size: 40px;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+p {
+	font-family: Verdana, arial, menlo, sans-serif;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+	color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+	font-weight: bold;
+}
+
+a:active {
+    text-decoration: none;
+    color: black;
+}
+
+div {
+    width: 80%;
+	height: 80%;
+    border: 5px solid #FF00FD;
+    padding: 5%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+    margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	background: white;
+	overflow: scroll;
+}
+

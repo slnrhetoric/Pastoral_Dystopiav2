@@ -1,0 +1,22 @@
+@charset "UTF-8";
+.container {
+    height: 200px;
+    width: 800px;
+    
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -400px;
+	text-align: center;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+	font-weight: bold;
+}
